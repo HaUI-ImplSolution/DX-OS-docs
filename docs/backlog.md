@@ -7,8 +7,8 @@ Làm xong một mục thì xóa dòng đó; không ghi lại diễn biến, ch�
 
 | Việc | Ghi chú |
 |---|---|
-| Báo cáo kỹ thuật 8-10 trang, slide tối đa 12 | Sườn báo cáo ở [`report/README.md`](./technical-report.md) |
-| Video demo 3-5 phút, rehearsal ít nhất một lần | Kịch bản ở [`SUBMISSION.md`](./submission.md) mục 2 và 3 |
+| Báo cáo kỹ thuật 8-10 trang, slide tối đa 12 | Sườn báo cáo ở [Sườn báo cáo kỹ thuật](./technical-report.md) |
+| Video demo 3-5 phút, rehearsal ít nhất một lần | Kịch bản ở [Hồ sơ nộp bài](./submission.md) mục 2 và 3 |
 | Chụp ảnh giao diện hai chế độ (Farm, Lab) và màn hình giám sát lưu vào repository cho hồ sơ | Chưa có; che IP và email thật khi chụp màn hình giám sát |
 | Chốt ngày hạn nộp thật | Chưa chốt |
 
@@ -31,7 +31,7 @@ VPS chạy `v1.1.0`; không còn việc ở mục này.
 
 | Việc | Ghi chú |
 |---|---|
-| Model bệnh chưa được đánh giá độc lập ngoài ruộng | Accuracy 89,43% trên 1.466 ảnh theo người huấn luyện, xem [`AI_EVALUATION.md`](./ai-evaluation.md); cần ít nhất 100 ảnh ruộng thật có nhãn kỹ sư để đo toàn pipeline và ngưỡng 0.70 |
+| Model bệnh chưa được đánh giá độc lập ngoài ruộng | Accuracy 89,43% trên 1.466 ảnh theo người huấn luyện, xem [Đánh giá AI](./ai-evaluation.md); cần ít nhất 100 ảnh ruộng thật có nhãn kỹ sư để đo toàn pipeline và ngưỡng 0.70 |
 | Crop classifier nhận 6/15 ảnh ngô và 15/15 ảnh mía là lúa, chặn 8/50 ảnh lúa nền ruộng | Classifier 10 lớp không có lớp ngô, mía, cỏ; cần thay classifier hoặc thêm dữ liệu ngoài miền; kỹ sư vẫn chốt bệnh |
 | Ngưỡng độ nét mới thử trên ảnh công khai và ảnh mờ nhân tạo | Chưa có ảnh mờ thật ngoài ruộng; chưa tách vùng lá |
 | Chẩn đoán AI chạy trên CPU mất 50 đến 70 giây mỗi ảnh | Đo trên máy chủ 8 nhân; lượt đo ngày 30/10/2026 trên AI đã chạy 14 giờ mất 68 giây; gateway chờ tới 95 giây, lượt dài hơn nhận 504 nhưng chẩn đoán vẫn được tạo và hiện khi tải lại báo cáo; chưa có GPU hay mô hình nhỏ hơn để rút ngắn |
@@ -106,7 +106,7 @@ VPS chạy `v1.1.0`; không còn việc ở mục này.
 | Polygon ruộng với PostGIS | Cần tính diện tích chính xác từ bản đồ thay vì nhập tay; GPS điểm đơn đang đủ cho định vị |
 | GraphRAG hoặc multi-agent | Corpus tri thức lớn đáng kể, RAG đơn giản không còn đủ |
 | Domain và HTTPS cho APK phát hành | Phát hành ngoài phạm vi cuộc thi; địa chỉ backend và Keycloak hiện nhúng trong APK |
-| Scale thật (100 đến 100.000 người dùng) | Vận hành thật; hướng mở rộng ở [`COUNCIL_QA.md`](./council-qa.md) câu 9 |
+| Scale thật (100 đến 100.000 người dùng) | Vận hành thật; hướng mở rộng ở [Câu hỏi hội đồng](./council-qa.md) câu 9 |
 
 ## 9. Đã chốt không làm
 

@@ -1,7 +1,7 @@
 # Hồ sơ nộp bài và kịch bản demo
 
 Đối chiếu với mục 10 của đề: repository, release, README, LICENSE và bảng dependency, CHANGELOG, báo cáo kỹ thuật, slide, video.
-Việc còn lại của hồ sơ nằm ở [`BACKLOG.md`](./backlog.md); câu trả lời hội đồng ở [`COUNCIL_QA.md`](./council-qa.md).
+Việc còn lại của hồ sơ nằm ở [Việc tồn đọng](./backlog.md); câu trả lời hội đồng ở [Câu hỏi hội đồng](./council-qa.md).
 
 ## 1. Hồ sơ theo mục 10 của đề
 
@@ -13,7 +13,7 @@ Việc còn lại của hồ sơ nằm ở [`BACKLOG.md`](./backlog.md); câu tr
 | `LICENSE` và bảng dependency, license | [`LICENSE`](https://github.com/HaUI-ImplSolution/DX-OS/blob/main/LICENSE), [`COPYRIGHT.txt`](https://github.com/HaUI-ImplSolution/DX-OS/blob/main/COPYRIGHT.txt), [`sbom/`](https://github.com/HaUI-ImplSolution/DX-OS/blob/main/sbom/README.md) |
 | `CHANGELOG.md`, issue tracker, `CONTRIBUTING.md` | [`CHANGELOG.md`](https://github.com/HaUI-ImplSolution/DX-OS/blob/main/CHANGELOG.md), GitHub Issues, [`CONTRIBUTING.md`](https://github.com/HaUI-ImplSolution/DX-OS/blob/main/CONTRIBUTING.md) |
 | Sơ đồ kiến trúc và luồng gọi dịch vụ | [`ARCHITECTURE.md`](https://github.com/HaUI-ImplSolution/DX-OS/blob/main/ARCHITECTURE.md) |
-| Báo cáo kỹ thuật 8-10 trang, slide tối đa 12 | Sườn báo cáo ở [`report/README.md`](./technical-report.md) |
+| Báo cáo kỹ thuật 8-10 trang, slide tối đa 12 | Sườn báo cáo ở [Sườn báo cáo kỹ thuật](./technical-report.md) |
 | Video demo 3-5 phút | Mục 3, dựa trên kịch bản ở mục 2 |
 
 ## 2. Kịch bản demo 10 phút
